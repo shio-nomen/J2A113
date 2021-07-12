@@ -12,32 +12,26 @@
 -----------------*/
 body {
   background: #f8d8bf;
-  margin: 0;
-  padding: 0;
+  margin-top:  30px;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 article {
   position: relative;
-  width: 800px;
-  max-width: 90%;
-  margin: 20px auto;
-  padding: 20px;
-  background: rgb(247, 4, 4);
 }
 header {
   position: absolute;
-  top: 40px;
+  top: 80px;
   left: 0;
-  background: #f83;
-  color: #fff;
-  padding: 10px;
 }
 .flexContainer {
   display: flex;
   justify-content: space-around;
 }
-section {
+.bun {
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 5px solid rgb(165, 150, 150);
 }
 img {
   display: block;
@@ -45,9 +39,14 @@ img {
   height: auto;
   margin-bottom: 40px;
 }
+h1 {
+  color:  white;
+  background-color: #f83;
+}
 h2 {
-  color: #f83;
+  color: white;
   margin-bottom: 10px;
+  font-size: 90%;
 }
 ul,ol {
   padding-left: 1.2em;
